@@ -14,9 +14,9 @@ public class taskHW {
         firstHomeWork.add("Лёха", "11111111111");
         firstHomeWork.add("Тимон", "2213222");
         firstHomeWork.add("Пумба", "6349837923");
-        firstHomeWork.add("Гробушка", "68878989");
-        firstHomeWork.add("Гробушка", "123123512");
-        firstHomeWork.add("Гробушка", "14241246676");
+        firstHomeWork.add("Пумба", "68878989");
+        firstHomeWork.add("Русичка", "123123512");
+        firstHomeWork.add("Пумба", "14241246676");
         firstHomeWork.add("Русичка", "99999999990899890");
         firstHomeWork.add("Ирусик", "2222");
         firstHomeWork.add("Гробушка", "11111111111");
@@ -26,7 +26,7 @@ public class taskHW {
         firstHomeWork.add("Гробушка", "123123512");
         firstHomeWork.add("Гробушка", "14241246676");
 
-        System.out.println(firstHomeWork.getByName("Гробушка"));
+        System.out.println(firstHomeWork.getByName("Петро"));
         System.out.println(firstHomeWork.getByTel("2222"));
         System.out.println(firstHomeWork.getAllSorted());
     }
